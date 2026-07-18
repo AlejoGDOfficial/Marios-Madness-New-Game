@@ -4,6 +4,26 @@ Conductor.bpm = CoolVars.data.bpm;
 
 var logoBop:Bool = true;
 
+var randomPhrases:String = Paths.getContent('data/introTexts.txt').split('\n');
+
+var phrase:Array<String> = randomPhrases[FlxG.random(0, randomPhrases.length - 1)].split('::');
+
+var introTexts:IntMap = [
+    0 => 'Ninjamuffin\nPhantomArcade\nKawaiiSprite\nEvilsk ER',
+    2 => 'Present',
+    3 => null,
+    4 => 'Not Associated With',
+    6 => 'Newgrounds',
+    7 => null,
+    8 => phrase[0],
+    10 => phrase[1],
+    11 => null,
+    12 => 'Friday',
+    13 => 'Night',
+    14 => 'Funkin\'',
+    15 => 'ALE Psych'
+];
+
 var texts:FlxTypedGroup<FlxBasic> = new FlxTypedGroup<FlxBasic>();
 add(texts);
 
@@ -118,7 +138,7 @@ function postBeatHit(curBeat:Int)
 finishIntro();
 
 if (FlxG.sound.music == null || !FlxG.sound.music.playing)
-    Conductor.play(Paths.music('freakyMenu'));
+    FlxG.sound.playMusic(Paths.music('freakyMenu'));
 
 var canSelect:Bool = true;
 
@@ -144,7 +164,7 @@ function onUpdate(elapsed:Float)
                 enter.color = FlxColor.WHITE;
                 enter.animation.play(ClientPrefs.data.flashing ? 'press' : 'freeze', true);
 
-                CoolUtil.playSound('confirm');
+                FlxG.sound.play(Paths.sound('confirmMenu', true));
 
                 FlxTimer.wait(1, () -> {
                     FlxTween.tween(tvroom.scale,
@@ -204,3 +224,5 @@ function onUpdate(elapsed:Float)
         }
     }
 }
+
+MobileAPI.createButtons(FlxG.width - 100, FlxG.height - 100, [{label: 'A', keys: ClientPrefs.controls.ui.accept}]);

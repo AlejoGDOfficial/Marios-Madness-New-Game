@@ -29,7 +29,7 @@ var bgDefaultY:Float = 0;
 var logoDefaultX:Float = 0;
 var logoDefaultY:Float = 0;
 
-var selInt:Int = Save.custom.data.mainMenuSelection ?? 0;
+var selInt:Int = CoolUtil.save.custom.data.mainMenuSelection ?? 0;
 
 var sprites:Array<FlxSprite> = [];
 
@@ -106,7 +106,7 @@ function selectMenu(data:OptionData)
         if (index != selInt)
             FlxTween.tween(spr, {alpha: 0}, 0.5, {ease: FlxEase.cubeIn});
 
-    CoolUtil.playSound('confirm');
+    FlxG.sound.play(Paths.sound('confirmMenu', true));
 
     FlxTimer.wait(1, () -> {
         CoolUtil.switchState(new CustomState(data.state, data.arguments, data.arguments));
@@ -195,7 +195,7 @@ function postUpdate(elapsed:Float)
 
             CoolUtil.switchState(new CustomState(CoolVars.data.initialState));
 
-            CoolUtil.playSound('cancel');
+            FlxG.sound.play(Paths.sound('cancelMenu', true));
         }
 
         var hoveredIndex:Int = -1;
@@ -209,10 +209,8 @@ function postUpdate(elapsed:Float)
         if (hoveredIndex != -1 && selInt != hoveredIndex)
         {
             selInt = hoveredIndex;
-            
             changeSelection();
-
-            CoolUtil.playSound('scroll');
+            FlxG.sound.play(Paths.sound('scrollMenu', true));
         }
 
         if (hoveredIndex == -1)
@@ -259,5 +257,15 @@ function postUpdate(elapsed:Float)
 
 function onDestroy()
 {
-    Save.custom.data.mainMenuSelection = selInt;
+    CoolUtil.save.custom.data.mainMenuSelection = selInt;
 }
+
+MobileAPI.createButtons(FlxG.width - 300, FlxG.height - 200, [
+    {label: 'A', keys: ClientPrefs.controls.ui.accept},
+    {label: 'B', keys: ClientPrefs.controls.ui.back},
+]);
+
+MobileAPI.createButtons(100, FlxG.height - 200, [
+    {label: 'D', keys: ClientPrefs.controls.ui.down},
+    {label: 'U', keys: ClientPrefs.controls.ui.up},
+]);

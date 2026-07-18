@@ -1,6 +1,7 @@
 {
-    "titleState": "FreeplayState",
+    "loadDefaultWeeks": false,
     "developerMode": true,
+    "allowDebugPrint": true,
     "title": "Friday Night Funkin': Mario's Madness New Game",
-    "save": "MMv2NewTwist"
+    "modID": "MMv2NewTwist"
 }

@@ -1,5 +1,3 @@
-# New Game Source
+# New Game ALE 4
 
-megabomba team lol
-
-![](sahur.png)
+I created this branch in case anyone needs the old files that were removed

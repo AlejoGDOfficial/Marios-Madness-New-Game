@@ -1,11 +1,3 @@
-return;
-
-/**
- * TS should be a SubState
- * 
- * - AlejoGDOfficial
- */
-
 final playState:PlayState = PlayState.instance;
 
 var somariDeath:Bool = false;
