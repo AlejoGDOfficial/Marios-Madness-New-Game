@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sea.png">
+	<!-- Created with Adobe Animate version 24.0.13.5 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="sea0000" x="0" y="0" width="2590" height="1730"/>
+	<SubTexture name="sea0001" x="0" y="0" width="2590" height="1730"/>
+	<SubTexture name="sea0002" x="2590" y="0" width="2590" height="1730"/>
+	<SubTexture name="sea0003" x="2590" y="0" width="2590" height="1730"/>
+	<SubTexture name="sea0004" x="5180" y="0" width="2590" height="1730"/>
+	<SubTexture name="sea0005" x="5180" y="0" width="2590" height="1730"/>
+	<SubTexture name="sea0006" x="0" y="1730" width="2590" height="1730"/>
+	<SubTexture name="sea0007" x="0" y="1730" width="2590" height="1730"/>
+	<SubTexture name="sea0008" x="0" y="0" width="2590" height="1730"/>
+	<SubTexture name="sea0009" x="0" y="0" width="2590" height="1730"/>
+	<SubTexture name="sea0010" x="0" y="0" width="2590" height="1730"/>
+	<SubTexture name="sea0011" x="0" y="0" width="2590" height="1730"/>
+	<SubTexture name="sea0012" x="2590" y="1730" width="2590" height="1730"/>
+	<SubTexture name="sea0013" x="2590" y="1730" width="2590" height="1730"/>
+	<SubTexture name="sea0014" x="0" y="0" width="2590" height="1730"/>
+	<SubTexture name="sea0015" x="0" y="0" width="2590" height="1730"/>
+	<SubTexture name="sea0016" x="0" y="0" width="2590" height="1730"/>
+	<SubTexture name="sea0017" x="0" y="0" width="2590" height="1730"/>
+	<SubTexture name="sea0018" x="0" y="0" width="2590" height="1730"/>
+	<SubTexture name="sea0019" x="0" y="0" width="2590" height="1730"/>
+	<SubTexture name="sea0020" x="0" y="0" width="2590" height="1730"/>
+	<SubTexture name="sea0021" x="0" y="0" width="2590" height="1730"/>
+	<SubTexture name="sea0022" x="0" y="0" width="2590" height="1730"/>
+	<SubTexture name="sea0023" x="0" y="0" width="2590" height="1730"/>
+</TextureAtlas>

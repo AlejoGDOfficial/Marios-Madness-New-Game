@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Robotinic.png">
+	<SubTexture name="Idle0000" x="0" y="0" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="Idle0001" x="0" y="0" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="Idle0002" x="800" y="0" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="Idle0003" x="800" y="0" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="Idle0004" x="1600" y="0" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="Idle0005" x="1600" y="0" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="Idle0006" x="0" y="0" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="Idle0007" x="0" y="0" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="Idle0008" x="2400" y="0" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="Idle0009" x="2400" y="0" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="Idle0010" x="3200" y="0" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="Idle0011" x="3200" y="0" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="Left0000" x="4000" y="0" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="Left0001" x="4000" y="0" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="Left0002" x="0" y="750" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="Left0003" x="0" y="750" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="Right0000" x="1600" y="750" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="Right0001" x="1600" y="750" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="Right0002" x="2400" y="750" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="Right0003" x="2400" y="750" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="Down0000" x="4000" y="750" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="Down0001" x="4000" y="750" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="Down0002" x="0" y="1500" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="Down0003" x="0" y="1500" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="Up0000" x="1600" y="1500" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="Up0001" x="1600" y="1500" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="Up0002" x="2400" y="1500" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="Up0003" x="2400" y="1500" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="AltUp0000" x="4000" y="1500" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="AltUp0001" x="4000" y="1500" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="AltUp0002" x="0" y="2250" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="AltUp0003" x="0" y="2250" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="AltLeft0000" x="1600" y="2250" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="AltLeft0001" x="1600" y="2250" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="AltLeft0002" x="2400" y="2250" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="AltLeft0003" x="2400" y="2250" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="AltRight0000" x="4000" y="2250" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="AltRight0001" x="4000" y="2250" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="AltRight0002" x="0" y="3000" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="AltRight0003" x="0" y="3000" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="AltDown0000" x="1600" y="3000" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="AltDown0001" x="1600" y="3000" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="AltDown0002" x="2400" y="3000" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+	<SubTexture name="AltDown0003" x="2400" y="3000" width="800" height="750" frameX="-110" frameY="-80" frameWidth="960" frameHeight="960" />
+</TextureAtlas>

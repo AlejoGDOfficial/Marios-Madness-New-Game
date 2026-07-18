@@ -1,0 +1,98 @@
+{
+	"zoom": 0.5,
+	"speed": 1,
+	"hud": "default",
+	"charactersOffset": {
+		"type": {
+			"opponent": {
+				"x": -580,
+				"y": 820
+			},
+			"player": {
+				"x": 450,
+				"y": 820
+			},
+			"extra": {
+				"x": -235,
+				"y": 200
+			}
+		}
+	},
+	"format": "ale-stage-v0.1",
+	"spritesConfig": {
+		"directory": "greenhills",
+		"properties": {
+			"scale": {
+				"x": 1,
+				"y": 1
+			},
+			"x": -1000,
+			"y": 0
+		},
+		"sprites": [
+			{
+				"id": "sky",
+				"type": "sheet",
+				"images": [
+					"sky"
+				],
+				"animations": [
+					{
+						"name": "idle",
+						"prefix": "sky",
+						"loop": true
+					}
+				],
+				"initialAnimation": "idle",
+				"properties": {
+					"scrollFactor": {
+						"x": 1,
+						"y": 1
+					}
+				}
+			},
+			{
+				"id": "sea",
+				"type": "sheet",
+				"images": [
+					"sea"
+				],
+				"animations": [
+					{
+						"name": "idle",
+						"prefix": "sea",
+						"loop": true
+					}
+				],
+				"initialAnimation": "idle",
+				"properties": {
+					"scrollFactor": {
+						"x": 1,
+						"y": 1
+					}
+				}
+			},
+			{
+				"id": "land",
+				"type": "sheet",
+				"images": [
+					"land"
+				],
+				"animations": [
+					{
+						"name": "idle",
+						"prefix": "land",
+						"loop": true
+					}
+				],
+				"initialAnimation": "idle",
+				"properties": {
+					"scrollFactor": {
+						"x": 1,
+						"y": 1
+					}
+				}
+			}
+		]
+	}
+}

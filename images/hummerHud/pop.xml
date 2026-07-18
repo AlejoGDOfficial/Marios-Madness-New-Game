@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pop.png">
+	<!-- Created with Adobe Animate version 24.0.13.5 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="pop0000" x="0" y="0" width="240" height="240"/>
+	<SubTexture name="pop0001" x="0" y="0" width="240" height="240"/>
+	<SubTexture name="pop0002" x="240" y="0" width="240" height="240"/>
+	<SubTexture name="pop0003" x="240" y="0" width="240" height="240"/>
+	<SubTexture name="pop0004" x="0" y="240" width="240" height="240"/>
+	<SubTexture name="pop0005" x="0" y="240" width="240" height="240"/>
+	<SubTexture name="pop0006" x="240" y="240" width="240" height="240"/>
+	<SubTexture name="pop0007" x="240" y="240" width="240" height="240"/>
+</TextureAtlas>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="land.png">
+	<!-- Created with Adobe Animate version 24.0.13.5 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="land0000" x="0" y="0" width="2590" height="1730"/>
+	<SubTexture name="land0001" x="0" y="0" width="2590" height="1730"/>
+	<SubTexture name="land0002" x="0" y="0" width="2590" height="1730"/>
+	<SubTexture name="land0003" x="0" y="0" width="2590" height="1730"/>
+	<SubTexture name="land0004" x="0" y="0" width="2590" height="1730"/>
+	<SubTexture name="land0005" x="0" y="0" width="2590" height="1730"/>
+	<SubTexture name="land0006" x="0" y="0" width="2590" height="1730"/>
+	<SubTexture name="land0007" x="0" y="0" width="2590" height="1730"/>
+	<SubTexture name="land0008" x="0" y="1730" width="2590" height="1730"/>
+	<SubTexture name="land0009" x="0" y="1730" width="2590" height="1730"/>
+	<SubTexture name="land0010" x="0" y="1730" width="2590" height="1730"/>
+	<SubTexture name="land0011" x="0" y="1730" width="2590" height="1730"/>
+	<SubTexture name="land0012" x="0" y="1730" width="2590" height="1730"/>
+	<SubTexture name="land0013" x="0" y="1730" width="2590" height="1730"/>
+	<SubTexture name="land0014" x="0" y="0" width="2590" height="1730"/>
+	<SubTexture name="land0015" x="0" y="0" width="2590" height="1730"/>
+	<SubTexture name="land0016" x="0" y="0" width="2590" height="1730"/>
+	<SubTexture name="land0017" x="0" y="0" width="2590" height="1730"/>
+	<SubTexture name="land0018" x="0" y="0" width="2590" height="1730"/>
+	<SubTexture name="land0019" x="0" y="0" width="2590" height="1730"/>
+	<SubTexture name="land0020" x="0" y="0" width="2590" height="1730"/>
+	<SubTexture name="land0021" x="0" y="0" width="2590" height="1730"/>
+	<SubTexture name="land0022" x="0" y="0" width="2590" height="1730"/>
+	<SubTexture name="land0023" x="0" y="0" width="2590" height="1730"/>
+</TextureAtlas>

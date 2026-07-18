@@ -1,0 +1,24 @@
+{
+	"songs": [
+		["premier", "dad", [146, 113, 253]],
+		["insane-funky-game", "dad", [146, 113, 253]],
+		["hummer-zone", "dad", [146, 113, 253]],
+		["epidema", "dad", [146, 113, 253]],
+		["bouncin", "dad", [146, 113, 253]]
+	],
+
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "Daddy Dearest",
+	"weekBefore": "tutorial",
+	"weekName": "Week 2",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

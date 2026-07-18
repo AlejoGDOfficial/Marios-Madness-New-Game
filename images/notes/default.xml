@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="NOTE_assets.png">
+	<SubTexture name="strum down idle0000" x="100" y="100" width="151" height="152"/>
+	<SubTexture name="strum left idle0000" x="1554" y="575" width="151" height="151"/>
+	<SubTexture name="strum right idle0000" x="2105" y="575" width="152" height="151"/>
+	<SubTexture name="strum up idle0000" x="2745" y="100" width="151" height="152"/>
+	<SubTexture name="note down idle0000" x="100" y="100" width="151" height="152"/>
+
+	<SubTexture name="note left end0000" x="1805" y="575" width="50" height="74"/>
+	<SubTexture name="note down end0000" x="1805" y="575" width="50" height="74"/>
+	<SubTexture name="note up end0000" x="1805" y="575" width="50" height="74"/>
+	<SubTexture name="note right end0000" x="1805" y="575" width="50" height="74"/>
+
+	<SubTexture name="note left sustain0000" x="1955" y="575" width="50" height="75"/>
+	<SubTexture name="note down sustain0000" x="1955" y="575" width="50" height="75"/>
+	<SubTexture name="note up sustain0000" x="1955" y="575" width="50" height="75"/>
+	<SubTexture name="note right sustain0000" x="1955" y="575" width="50" height="75"/>
+	
+	<SubTexture name="strum down hit0000" x="351" y="100" width="373" height="375"/>
+	<SubTexture name="strum down hit0001" x="824" y="100" width="373" height="375"/>
+	<SubTexture name="strum down hit0002" x="1297" y="100" width="373" height="375"/>
+	<SubTexture name="strum down hit0003" x="1770" y="100" width="373" height="375"/>
+	<SubTexture name="strum down press0000" x="2243" y="100" width="151" height="152"/>
+	<SubTexture name="strum down press0001" x="2243" y="100" width="151" height="152"/>
+	<SubTexture name="strum down press0002" x="2494" y="100" width="151" height="152"/>
+	<SubTexture name="strum down press0003" x="2494" y="100" width="151" height="152"/>
+	<SubTexture name="note up idle0000" x="2745" y="100" width="151" height="152"/>
+	<SubTexture name="strum left hit0000" x="2996" y="100" width="375" height="373"/>
+	<SubTexture name="strum left hit0001" x="3471" y="100" width="375" height="373"/>
+	<SubTexture name="strum left hit0002" x="100" y="575" width="375" height="373"/>
+	<SubTexture name="strum left hit0003" x="575" y="575" width="375" height="373"/>
+	<SubTexture name="strum left press0000" x="1050" y="575" width="152" height="152"/>
+	<SubTexture name="strum left press0001" x="1050" y="575" width="152" height="152"/>
+	<SubTexture name="strum left press0002" x="1302" y="575" width="152" height="152"/>
+	<SubTexture name="strum left press0003" x="1302" y="575" width="152" height="152"/>
+	<SubTexture name="note left idle0000" x="1554" y="575" width="151" height="151"/>
+	<SubTexture name="note right idle0000" x="2105" y="575" width="152" height="151"/>
+	<SubTexture name="strum right hit0000" x="2357" y="575" width="375" height="374"/>
+	<SubTexture name="strum right hit0001" x="2832" y="575" width="375" height="374"/>
+	<SubTexture name="strum right hit0002" x="3307" y="575" width="375" height="374"/>
+	<SubTexture name="strum right hit0003" x="100" y="1049" width="375" height="374"/>
+	<SubTexture name="strum right press0000" x="575" y="1049" width="152" height="151"/>
+	<SubTexture name="strum right press0001" x="575" y="1049" width="152" height="151"/>
+	<SubTexture name="strum right press0002" x="827" y="1049" width="152" height="151"/>
+	<SubTexture name="strum right press0003" x="827" y="1049" width="152" height="151"/>
+	<SubTexture name="strum up hit0000" x="1079" y="1049" width="373" height="375"/>
+	<SubTexture name="strum up hit0001" x="1552" y="1049" width="373" height="375"/>
+	<SubTexture name="strum up hit0002" x="2025" y="1049" width="373" height="375"/>
+	<SubTexture name="strum up hit0003" x="2498" y="1049" width="373" height="375"/>
+	<SubTexture name="strum up press0000" x="2971" y="1049" width="151" height="152"/>
+	<SubTexture name="strum up press0001" x="2971" y="1049" width="151" height="152"/>
+	<SubTexture name="strum up press0002" x="3222" y="1049" width="151" height="152"/>
+	<SubTexture name="strum up press0003" x="3222" y="1049" width="151" height="152"/>
+</TextureAtlas>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="HummerArrows.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="leftIdle0000" x="0" y="0" width="24" height="24"/>
+	<SubTexture name="downIdle0000" x="24" y="0" width="24" height="24"/>
+	<SubTexture name="upIdle0000" x="48" y="0" width="24" height="24"/>
+	<SubTexture name="rightIdle0000" x="72" y="0" width="24" height="24"/>
+
+	<SubTexture name="leftPress0000" x="0" y="24" width="24" height="24"/>
+	<SubTexture name="leftPress0001" x="0" y="48" width="24" height="24"/>
+	<SubTexture name="downPress0000" x="24" y="24" width="24" height="24"/>
+	<SubTexture name="downPress0001" x="24" y="48" width="24" height="24"/>
+	<SubTexture name="upPress0000" x="48" y="24" width="24" height="24"/>
+	<SubTexture name="upPress0001" x="48" y="48" width="24" height="24"/>
+	<SubTexture name="rightPress0000" x="72" y="24" width="24" height="24"/>
+	<SubTexture name="rightPress0001" x="72" y="48" width="24" height="24"/>
+
+	<SubTexture name="leftHit0000" x="0" y="72" width="24" height="24"/>
+	<SubTexture name="leftHit0001" x="0" y="96" width="24" height="24"/>
+	<SubTexture name="downHit0000" x="24" y="72" width="24" height="24"/>
+	<SubTexture name="downHit0001" x="24" y="96" width="24" height="24"/>
+	<SubTexture name="upHit0000" x="48" y="72" width="24" height="24"/>
+	<SubTexture name="upHit0001" x="48" y="96" width="24" height="24"/>
+	<SubTexture name="rightHit0000" x="72" y="72" width="24" height="24"/>
+	<SubTexture name="rightHit0001" x="72" y="96" width="24" height="24"/>
+
+	<SubTexture name="leftNote0000" x="0" y="120" width="24" height="24"/>
+	<SubTexture name="downNote0000" x="24" y="120" width="24" height="24"/>
+	<SubTexture name="upNote0000" x="48" y="120" width="24" height="24"/>
+	<SubTexture name="rightNote0000" x="72" y="120" width="24" height="24"/>
+</TextureAtlas>
