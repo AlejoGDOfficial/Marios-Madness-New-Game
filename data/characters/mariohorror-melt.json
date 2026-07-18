@@ -1,0 +1,129 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "meltio idle"
+		},
+		{
+			"offsets": [
+				1,
+				-321
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "meltio down"
+		},
+		{
+			"offsets": [
+				89,
+				68
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "meltio left"
+		},
+		{
+			"offsets": [
+				-57,
+				367
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "meltio up"
+		},
+		{
+			"offsets": [
+				32,
+				-34
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "meltio right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				80
+			],
+			"anim": "end",
+			"fps": 24,
+			"name": "meltio scream",
+			"indices": []
+		},
+		{
+			"offsets": [
+				90,
+				70
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "fall",
+			"indices": [],
+			"name": "meltio jump 2"
+		},
+		{
+			"offsets": [
+				40,
+				130
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "jump",
+			"indices": [],
+			"name": "meltio jump0"
+		},
+		{
+			"offsets": [
+				0,
+				80
+			],
+			"indices": [
+				15,
+				16,
+				17,
+				18,
+				19,
+				20
+			],
+			"fps": 24,
+			"anim": "end-loopin",
+			"loop": true,
+			"name": "meltio scream"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/ITS A ME SS/Melted_MarioEXE_Assets",
+	"position": [
+		-40,
+		-90
+	],
+	"healthicon": "meltedmario",
+	"flip_x": false,
+	"healthbar_colors": [
+		111,
+		0,
+		0
+	],
+	"camera_position": [
+		-320,
+		-190
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
