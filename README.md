@@ -1,4 +1,4 @@
-# New Game Source
+# Mario's Madness: New Game
 
 megabomba team lol
 
