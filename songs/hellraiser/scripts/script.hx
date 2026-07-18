@@ -1,17 +1,19 @@
 import funkin.visuals.shaders.FXShader;
 
-startTime = Conductor.beatToTime(740);
+startTime = Conductor.beatToTime(748);
 
 final shader:FXShader = new FXShader('black');
 
 function postCreate()
 {
     shader.set({threshold: 0});
-    camGame.setShaders([shader]);
+    //camGame.setShaders([shader]);
 }
 
 var updateFunc:Float -> Void;
 var curTime:Float = 0;
+
+cacheCharacter('mariohorror-melt');
 
 function onSafeBeatHit(curBeat:Int)
 {
@@ -20,6 +22,8 @@ function onSafeBeatHit(curBeat:Int)
         case 740:
             FlxTween.num(1, 1, 2, {ease: FlxEase.cubeOut}, v -> shader.set({threshold: v}));
         case 748: //MELT TIME BEGINS RAHHH
+            changeCharacter(dad, 'mariohorror-melt');
+
             allowCameraMoving = false;
             camGame.tweenZoom(.85, 2, {ease: FlxEase.cubeOut});
             camGame.tweenPosition(100, 400, 2, {ease: FlxEase.cubeOut});
@@ -36,6 +40,13 @@ function onSafeBeatHit(curBeat:Int)
             FlxTween.num(.6, .3, 1, {ease: FlxEase.cubeOut}, v -> shader.set({threshold: v}));
     }
 }
+
+function onEventHit(id:String)
+{
+    debugTrace(id);
+}
+
+spawnNotes = false;
 
 function onUpdate(elapsed:Float)
 {

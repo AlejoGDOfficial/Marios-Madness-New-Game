@@ -1,8 +1,3 @@
-function postCreate()
-{
-    trace(FlxG.state);
-}
-
 function postUpdate(elapsed:Float)
 {
     var speed:Float = FlxG.keys.pressed.SPACE ? 5 : 1;
