@@ -108,12 +108,12 @@
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/ITS A ME SS/Melted_MarioEXE_Assets",
+	"image": "characters/Melted_MarioEXE_Assets",
 	"position": [
 		-40,
 		-90
 	],
-	"healthicon": "meltedmario",
+	"healthicon": "HorrorM",
 	"flip_x": false,
 	"healthbar_colors": [
 		111,
@@ -121,8 +121,8 @@
 		0
 	],
 	"camera_position": [
-		-320,
-		-190
+		-220,
+		200
 	],
 	"sing_duration": 4,
 	"scale": 1
