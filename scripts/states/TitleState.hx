@@ -194,7 +194,7 @@ function onUpdate(elapsed:Float)
                 });
 
                 FlxTimer.wait(4.2, () -> {
-                    CoolUtil.switchState(new CustomState(CoolVars.data.mainMenuState), true, true);
+                    CoolUtil.switchState('MainMenuState', true, true);
                 });
             } else {
                 finishIntro();

@@ -43,11 +43,11 @@ var canSelect:Bool = false;
 var options:StringMap<OptionData> = [
     {
         id: 'storyMode',
-        state: CoolVars.data.storyMenuState
+        state: 'StoryMenuState'
     },
     {
         id: 'freeplay',
-        state: CoolVars.data.freeplayState
+        state: 'FreeplayState'
     },
     {
         id: 'credits',
@@ -55,7 +55,7 @@ var options:StringMap<OptionData> = [
     },
     {
         id: 'options',
-        state: CoolVars.data.optionsState,
+        state: 'OptionsState',
         arguments: [false]
     }
 ];
@@ -193,7 +193,7 @@ function postUpdate(elapsed:Float)
         {
             canSelect = false;
 
-            CoolUtil.switchState(new CustomState(CoolVars.data.initialState));
+            CoolUtil.switchState('InitialState');
 
             CoolUtil.playSound('cancel');
         }
